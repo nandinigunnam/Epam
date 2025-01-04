@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Complete HTML Form Example</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form action="/submit" method="POST" enctype="multipart/form-data">
+          <fieldset>
+              <legend>Gender:</legend>
+              <input type="radio" id="male" name="gender" value="male" required>
+              <label for="male">Male</label>
+              <br>
+              <input type="radio" id="female" name="gender" value="female" required>
+              <label for="female">Female</label>
+              <br>
+              <input type="radio" id="other" name="gender" value="other" required>
+              <label for="other">Other</label>
+            </fieldset>
+    </form>
+    </body>
+    </html>
