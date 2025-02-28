@@ -1,0 +1,1 @@
+alert("HEllo nWelcome to JAva Script")
