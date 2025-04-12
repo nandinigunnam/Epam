@@ -1,0 +1,6 @@
+npm create vite@latest sample
+
+JavaScript + SWC(speedy Web Compiler)-20 time faster than JS
+cd sample
+ npm install
+  npm run dev
